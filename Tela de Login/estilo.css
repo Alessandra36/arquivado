@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("imagem/lampada4.png");
+    background-position: 50% 70%;
+    color: rgb(21, 11, 170);
+    font-family: arial;
+}
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border:1px solid black ;
+    font-size:16pt ;
+    padding: 10px 20px ;
+    background-color: rgba(255,255,255,0.01);
+    color: rgb(238, 231, 231);
+    outline: none;
+}
+
+div#corpo-form{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+
+div#corpo-form-Cad
+{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 80px auto 0px auto;
+}
+div#corpo-form h1, div#corpo-form-cad h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: rgb(87, 50, 4);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: #FF0066;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* Webkit browsers */
+    color: #131212;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #080808;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #0e0d0d;
+}
+
+:-ms-input-placeholder{ /* Internet Explorer 10+ */
+    color: #0e0c0c
+}

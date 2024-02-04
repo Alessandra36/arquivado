@@ -1,0 +1,90 @@
+body{
+  background-color: #24221e;
+  color: #f5f3eb;
+}
+.container{
+  align-content: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.grid{
+  height: 400px;
+  width: 400px;
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #779d73;
+  border: 10px solid #795610;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h3{
+  font-family: 'Robiti Mono', monospace;
+}
+
+div{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Robiti Mono', monospace;
+}
+
+.valid{
+  height: 40px;
+  width: 40px;
+  border: 5px solid;
+  border-color: #f5ebf3 #baa9b7 #baa9b7 #ffdbfa;
+  box-sizing: border-box;
+}
+
+.checked{
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  background-color: #ceb7c6;
+  border-color: #472b45;
+  box-sizing: border-box;
+}
+
+.bomb{
+  height: 40px;
+  width: 40px;
+  border: 5px solid;
+  border-color: #f5ebf1 #baa9b7 #baa9b3 #ffdbf3;
+  box-sizing: border-box;
+}
+
+.one{
+  color: #e76346;
+}
+
+.two{
+  color: #b80a0a;
+}
+
+.three{
+  color: #044d05;
+}
+
+.four{
+  color: #bb41d3;
+}
+
+#result{
+  margin-top: 5px;
+  color: #e74699;
+}
+
+.button {
+  margin-top: 15px;
+  font-size: 15px;
+  background-color: #f0c14b;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+  border: none;
+  font-family: 'Robiti Mono', monospace;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+html{
+  font-family: arial;
+  font-size: 62.5%
+}
+
+header{
+  background-color: #000;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+footer{
+  background-color: #000;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+.conteudo{
+  font-size:1.6rem;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+h3{
+  padding: 2rem;
+}
+
+  

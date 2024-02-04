@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto da Alessandra</title>
+</head>
+<body>
+  <div class="controls">
+    <button id="button-start">start</button>
+    <label
+      >volume:<input
+        id="input-volume"
+        type="range"
+        min="0"
+        max="1"
+        step="0.05"
+        value="0.5"
+        disabled
+    /></label>
+
+    <label
+        >comprimento da nota:<input
+          id="input-note-length"
+          type="range"
+          min="1"
+          max="10"
+          step="0.1"
+          value="4"
+          disabled
+      /></label>
+
+      <label
+      >oitava ( Press Q or Z to change):<input
+      id="input-octave"
+      type="number"
+      min="0"
+      max="8"
+      step="1"
+      value="4"
+      disabled
+      /></label>
+
+      <button id="button-play-track" disabled>Play tema do Super Mario</button>
+  </div>
+
+  <div id="piano-keys">
+    <div id="key-c3" class="white-key">C</div>
+    <div id="key-c3" class="black-key csharp3">C#</div>
+    <div id="key-d3" class="white-key">D</div>
+    <div id="key-d3" class="black-key dsharp3">D#</div>
+    <div id="key-e3" class="white-key">E</div>
+    
+
+
+  </div>
+  
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

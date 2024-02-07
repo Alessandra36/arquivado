@@ -8,6 +8,13 @@
       {
         "label": "off"
       }
-    ]
-  }
+    ],
+    "compat-api/css": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 17",
+    "not safari <= 17"
+  ]
 }

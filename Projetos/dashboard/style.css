@@ -1,0 +1,76 @@
+:root {
+  --for-heading: #3b026b;
+  --main-color: linear-gradient(45deg, #1dc400, #1071c0);
+  --color-dark: #1d2231;
+  --text-grey: #8390a2;
+  --dark-BG: #001623;
+  --content-BG: #022d47;
+  --dark-text: #1500ff;
+  --off-white: #f1f5f9;
+  --icon-color: #520293;
+  --purple: linear-gradient(45deg, #2ed71b, #e9ed02);
+  --pink: linear-gradient(45deg, #0b6d15, #10ae3a);
+  --orange: linear-gradient(45deg, #2bff00, #0073ff);
+  --moon: linear-gradient(45deg, #00eaff, #022ded);
+  --moon-only: linear-gradient(45deg, #fff, #29ed02);
+  --sun: linear-gradient(45deg, #00eeff, #fff200);
+  --transition: all 400ms;
+  --new-content: rgba(255, 255, 255, .5);
+  --indicator: rgba(255, 255, 255,.7)
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  user-select: none;
+  list-style-type: none;
+  text-decoration: none;
+  transition: all 400ms;
+  overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+body {
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter: blur(10px);  
+}
+
+.main-wrapper{
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter: blur(6px);
+}
+.user-wrapper b{
+  filter: brightness(150%);
+}
+
+.video-1,
+.video-2{
+  z-index: -999;
+  position: fixed;
+  width: fit-content;
+  height: 100%;
+  top: 0;
+}
+
+.video-2{
+  visibility: hidden;
+}
+.light .video-2 {
+  visibility: visible;
+}
+.light .video-1 {
+  display: none;
+}
+.search {
+  position: relative;
+  width: 40px;
+  height: 60px;
+  border-radius: 30px;
+  transition: var(--transition);
+  box-shadow: 0 0 0 5px rgba(183, 204, 235, 0.378);
+  overflow: hidden;
+}
